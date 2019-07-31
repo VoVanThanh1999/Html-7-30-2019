@@ -1,0 +1,44 @@
+.ps{
+	width: 100%;
+	height: auto;
+	background: black;
+}
+.ps .container{
+	width: 100%;
+	height: 26px;
+	background: black;
+}
+.ps .container .icon{
+	font-size: 11px;
+	font-family: open sans,Arial,sans-serif;
+	color: white;	
+}
+
+.navbar-brand{
+	font-family: open sans,Arial,sans-serif;
+	font-weight: 800;
+}
+.navbar .collapse{
+	position: absolute;
+	left: 55%;
+
+}
+.navbar .collapse a{
+	font-size:11px;
+	font-weight: 400;
+	font-family: open sans,Arial,sans-serif;
+	text-transform: uppercase;
+	color: black;
+	font-weight:400;
+	font-style:normal;
+	font-variant:normal;
+	margin-left: 23px;
+}
+.page-home{
+	width: 100%;
+	padding-bottom: 20px;
+}
+.item{
+	width: 100px;
+	height: 100px;
+}
