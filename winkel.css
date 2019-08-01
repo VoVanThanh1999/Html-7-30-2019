@@ -1,3 +1,4 @@
+/*index start*/
 .ps{
 	width: 100%;
 	background: black;
@@ -80,6 +81,8 @@
 	height: 100%;
 }
 .page-bestter{
+	padding-bottom: 130px;
+	background: #ededed;
 	position: relative;
 }
 .page-bestter .video{
@@ -119,10 +122,12 @@
 	font-size: 16px;
 }
 .page-sellers{
+	padding-bottom: 177px;
 	position: relative;
+	background: #ededed;
 }
 .page-sellers .title{
-	margin-top: 130px;
+	
 }
 .page-sellers .card-row{
 	margin-top: 22px;
@@ -149,6 +154,7 @@
 	width: 75%;
 }
 .page-sellers .card .card-body i{
+	padding-left: 5%;
 	color: orange;
 	font-size: 11px;
 }
@@ -163,5 +169,260 @@
 	transition: 0.3s;
 	opacity: 0.2;
 }
+.page-sellers .card-row:hover img{
+	transform: scale(1.2);
+	transition: 0.4s;
 
+}
+.page-clothing{
+	position: relative;
+	overflow: hidden;
+}
+.page-clothing .row-top .image{
+	background:#c4c4c4;
+	height: 483px;
+}
+.page-clothing .row-top .image img{
+	transform: scale(0.3,1);
+}
+.page-clothing .row-top .text{
+	position: relative;
+	left: -36%;
+	top: 20%;
+	width: 100%;
+}
+.page-clothing .row-top .text h3{
+	line-height:48px;
+	vertical-align:baseline;
+	letter-spacing:1px;
+	font-weight: 300;
+}
+.page-clothing  .text button{
+	width: 120px;
+	height: 55px;
+	border-radius: 30px;
+	background: orange;
+}
+.page-clothing .row-top .text p{
+	width: 150%;
+}
 
+.page-clothing .row-bottom .text h3{
+    width: 71%;
+    font-weight: 300;
+    padding-top: 14%;
+}
+.page-clothing .row-bottom .image{
+	margin-top: -16%;
+    height: 591px;
+}
+.page-clothing .row-bottom .image img{
+	border: 10px solid white;
+}
+.page-products{
+	background: #ededed;
+	position: relative;	
+	padding-bottom: 117px;
+}
+.page-products .text{
+	padding-top: 118px;
+}
+.page-products .card-row{
+	margin-top: 22px;
+}
+.page-products .card{
+	width: 100%;
+	height: 476px;
+	border-radius:0px;
+}
+.page-products .card .img{
+	height: 77%;
+	overflow: hidden;
+}
+.page-products .card img{
+	width: 100%;
+	transform: scale(1);
+	height: 100%;
+}
+.page-products .card .card-body{
+	height: 23%;
+}
+.page-products .card .card-body h6{
+	font-weight: 300;
+	width: 75%;
+}
+.page-products .card .card-body i{
+	padding-left: 5%;
+	color: orange;
+	font-size: 11px;
+}
+.page-products  .hover{
+	position: relative;
+	opacity: 0;
+	top: -100%;
+	height: 77%;
+}
+.page-products .card-row:hover .hover{ 
+	transition: 0.3s;
+	opacity: 0.2;
+}
+.page-products .card-row:hover img{
+	transform: scale(1.2);
+	transition: 0.4s;
+}
+.page-banner{
+	background-image: url(thumuchinhanh/anhbanner.jpg);
+	position: relative;
+}
+.page-banner .row{
+	padding-bottom: 124px;
+    padding-top: 140px;
+}
+.page-banner .row h2{
+	font-weight: 400;
+}
+.page-banner .row p{
+	text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.page-customer_says{
+	position: relative;
+	padding-bottom: 140px;
+}
+.page-customer_says .text{
+	padding-top: 140px;
+	margin: 0 auto;
+}
+.page-customer_says  .item{
+	position: relative;
+	height: 380px;
+}
+.page-customer_says  .item .header{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: blue;
+	overflow: hidden;
+}
+.page-customer_says  .item .header img{
+	width: 100%;
+	height: 100%;
+	transform: scale(1.4,1);
+}
+.page-customer_says  .item  .icon{
+	top: 20%;
+    left: 16%;
+    position: absolute;
+    width: 35px;
+    background: white;
+    height: 35px;
+    border-radius: 50%;
+    color: orange;
+}
+.page-customer_says .row{
+	margin-top: 90px;	
+}
+.page-customer_says .row .body{
+	margin-top: 51px;
+	border-left: 0.3px solid black;
+}
+.page-customer_says .row .body p{
+	width: 85%;
+
+}
+.page-customer_says .row  .footer{
+	padding-top: 29px;
+}
+.page-customer_says .row  .footer p{
+	font-weight: 500;
+    margin-bottom: 2px;
+}
+.page-customer_says .row  .footer span{
+	letter-spacing: 2px;
+}
+.page-customer_says .dot-click{
+	margin-top: 64px;
+}
+.page-customer_says .dot-click {
+	font-size: 10px;
+	    padding-left: 46%;
+	color: orange;
+}
+.page-footer{
+	background: #ededed;
+	border-top: 1px solid gray;
+	padding-bottom: 120px;
+}
+.page-footer .title{
+	position: relative;
+	margin-top: 80px;
+    text-align: center;
+}
+.page-footer .title input{
+	border-radius:0px;
+	border: 1px solid black;
+	margin-top: 40px;
+    height: 52px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 13px;
+}
+.page-footer .title .submit{
+	position: absolute;
+    top: 59%;
+    left: 54.7%;
+    height: 31%;
+    background: black;
+    width: 12%;
+}
+.page-footer .title .submit a{
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 14px;
+	color: white;
+}
+.page-footer .footer{
+	margin-top: 65px;
+}
+.page-footer .row .item{
+	padding-top: 100px;
+}
+.page-footer .row .item .header h6{
+font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.page-footer .row .item .body p{
+	font-size: 15px;
+	width: 80%;
+}
+.page-footer .row .item .body li{
+	width: 80%;
+}
+.page-footer .row .item .body a{
+	color: black;
+}
+.page-footer .row .item  .icon{
+    padding-top: 40px;
+
+}
+.page-footer .row .item  .icon i{
+	font-size: 24px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: white;
+    font-size: 22px;
+        padding-left: 4%;
+    padding-top: 4%;
+}
+.page-footer .slogan{
+	    margin-top: 80px;
+}
+/*endindex*/
