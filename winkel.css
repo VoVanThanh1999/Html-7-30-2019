@@ -426,3 +426,33 @@ font-weight: 400;
 	    margin-top: 80px;
 }
 /*endindex*/
+/*bat dau page about*/
+/*su dung lai cac thanh phan  da co*/
+.page-sidebar{
+	position: relative;
+	background: blue;
+	height: 370px;
+}
+.page-sidebar img{
+	position: absolute;
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+}
+.page-sidebar .text{
+	position: absolute;
+	left: 45%;
+	z-index: 1;
+	text-transform: uppercase;
+	color: black;
+	padding-top: 150px;
+}
+.page-sidebar .text h6{
+	font-weight: 400;
+	font-size: 12px;
+	letter-spacing: 3px;
+}
+.page-sidebar .text h2{
+	letter-spacing:3px;
+}
+/*ket thuc page about*/
