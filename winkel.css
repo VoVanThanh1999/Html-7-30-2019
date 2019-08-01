@@ -456,3 +456,14 @@ font-weight: 400;
 	letter-spacing:3px;
 }
 /*ket thuc page about*/
+/*bat dau page blog*/
+.page-body{
+
+}
+.page-body .container{
+	margin-top: 57px;
+}
+.page-body .container .blogs{
+	height: 300px;
+	background: blue;
+}
