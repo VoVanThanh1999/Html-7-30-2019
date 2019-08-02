@@ -272,6 +272,8 @@
 }
 .page-banner{
 	background-image: url(thumuchinhanh/anhbanner.jpg);
+	background-size: cover;
+	background-position: bottom;
 	position: relative;
 }
 .page-banner .row{
@@ -553,3 +555,119 @@ font-weight: 400;
  	background: orange;
  	border-right: 30px;
  }
+ /*page-addshop*/
+ .page-product{
+ 	padding-bottom: 160px;
+ 	position: relative;
+ }
+ .page-product .container{
+ 	margin-top: 140px;
+ }
+ .page-product .container h4{
+ 	font-weight: 300;
+ }
+ .page-product .container .category ul li{
+ 	list-style-type: none;
+ 	margin-left:-40px;
+ 	padding-top: 10px;
+ }
+  .page-product .container .category ul li a{
+  	padding-top: 5px;
+  	color: black;
+    font-size: 12px;
+}
+.page-product .card{
+	width: 100%;
+	height: 500px;
+	border-radius:0px;
+}
+.page-product .card .img{
+	height: 77%;
+	overflow: hidden;
+}
+.page-product .card img{
+	width: 100%;
+	transform: scale(1);
+	height: 100%;
+}
+.page-product .card .card-body{
+	height: 23%;
+}
+.page-product .card .card-body h6{
+	font-weight: 300;
+	width: 75%;
+}
+.page-product .card .card-body i{
+	padding-left: 5%;
+	color: orange;
+	font-size: 11px;
+}
+.page-product  .hover{
+	position: relative;
+	opacity: 0;
+	top: -100%;
+	height: 77%;
+	background: blue;
+}
+.page-product .card-row:hover .hover{ 
+	transition: 0.3s;
+	opacity: 0.2;
+}
+.page-product .card-row:hover img{
+	transform: scale(1.2);
+	transition: 0.4s;
+}
+.page-product nav{
+	margin:auto;
+}
+.page-product .pagination  .next-page{
+	position: relative;
+	left: 20%;
+	border-radius: 50%;
+}
+.page-product .pagination a{
+	color: black;
+}
+/*ket thuc page product*/
+/*bat dau page chi tiet san pham*/
+.page-deltai_product{
+    padding-bottom: 150px;
+}
+.page-deltai_product .container{
+	margin-top: 140px;
+}
+.page-deltai_product .image{
+	width: 100%;
+	height: 800px;
+	background: blue;
+}
+.page-deltai_product .header h3{
+	font-weight: 400;
+}
+.page-deltai_product .header i{
+	font-size: 13px;
+	color: orange;
+}
+.page-deltai_product .footer select {
+	text-transform: uppercase;
+	border-radius: 0;
+	height: 40px;
+}
+.page-deltai_product .footer .btn{
+	border-radius: 0;
+	background: none;
+	height: 40px;
+	width: 40px;
+	border: 1px solid black;
+}
+.page-deltai_product .footer input{
+	height: 40px;
+	margin-left: -50px;
+	margin-right: -50px;
+}
+.page-deltai_product .footer  .btn-submit{
+	width: 180px;
+	height: 60px;
+	border-radius: 30px;
+	background: black;
+}
