@@ -9,7 +9,6 @@
 	font-family: open sans,Arial,sans-serif;
 	color: white;	
 }
-
 .navbar-brand{
 	font-family: open sans,Arial,sans-serif;
 	font-weight: 800;
@@ -372,14 +371,7 @@
     font-weight: 400;
     font-size: 13px;
 }
-.page-footer .title .submit{
-	position: absolute;
-    top: 59%;
-    left: 54.7%;
-    height: 31%;
-    background: black;
-    width: 12%;
-}
+
 .page-footer .title .submit a{
 	text-transform: uppercase;
 	letter-spacing: 4px;
@@ -432,7 +424,9 @@ font-weight: 400;
 /*su dung lai cac thanh phan  da co*/
 .page-sidebar{
 	position: relative;
-	background: blue;
+	background: url(thumuchinhanh/banner.jpg);
+	background-size: cover;
+	background-position: top;
 	height: 370px;
 }
 .page-sidebar img{
@@ -670,4 +664,95 @@ font-weight: 400;
 	height: 60px;
 	border-radius: 30px;
 	background: black;
+}
+/*ket thuc page chi tiet san pham*/
+/*bat dau page cart*/
+.page-card{
+	padding-bottom: 200px;
+}
+.page-card .container .table{
+	margin-top: 120px;
+}
+.page-card .container table{
+	overflow: hidden;
+}
+.page-card .container thead{
+	background: black;
+    color: white;
+}
+.page-card .container thead tr th{
+	font-weight: 300;
+	height: 70px;
+	padding: 20px 10px;
+}
+.page-card .container tbody img{
+	height: 300px;
+	background:blue;
+}
+.page-card .container .card{
+	height: 306px;
+    border-radius: 0px;
+    background: none;
+    border: 1px solid gainsboro;
+}
+.page-card .container .button{
+	border-radius: 30px;
+}
+/*ket thu page card*/
+/*bat dau page checkout*/
+.page-checkout{
+	padding-bottom: 175px;
+}
+.page-checkout .billing{
+	margin-top: 130px;
+}
+.page-checkout .billing input{
+	height: 55px;
+}
+.page-checkout .billing .button{
+	border-radius: 30px;
+}
+/*ket thuc page checkout*/
+/*reposive thiết bị*/
+@media only screen and (max-width:  320px){
+  .page-clothing{
+		position: relative;
+		overflow: hidden;
+	}
+	.page-clothing .row-top .text{
+		position: relative;
+		left: 0%;
+		top: 20%;
+		width: 100%;
+	}
+	.page-clothing .row-bottom .image{
+		margin-top: 0%;
+	    height: 591px;
+	}
+	.page-clothing .row-bottom .text h3{
+		margin-top: 80px;
+	}
+	
+}
+@media only screen and (max-width:  960px){
+	.navbar .collapse{
+		position: relative;
+		left: 0%;
+	}
+	.navbar .collapse a{
+		margin-left: 0;
+		font-weight: normal;
+	}
+	.navbar .collapse a{
+		font-weight: normal;
+		font-family: open sans,Arial,sans-serif;
+		text-transform: uppercase;
+		color: black;
+		font-style:normal;
+		font-variant:normal;
+		
+	}
+	.page-home .left .text .vr{
+		display: none;
+	}
 }
